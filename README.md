@@ -7,22 +7,20 @@ This repository is a hands-on exploration of building **Large Language Models (L
 ```
 
 llms-from-scratch/
-├── data/               # Raw and processed text datasets
-│   ├── raw/
-│   └── processed/
-├── notebooks/          # Jupyter notebooks with step-by-step experiments
-│   ├── 01_neural_network_basics.ipynb
-│   ├── 02_tokenization.ipynb
-│   └── 03_embeddings_and_attention.ipynb
+├── data/               
+│   ├── the-verdict.txt                 # Raw text data
+├── notebooks/                          # Jupyter notebooks with step-by-step experiments
+│   ├── 01 - Basic NN - Revision
+│       ├──--── 01_neural_network_basics.ipynb
+│   ├── 02 - Working with Text Data
+│       ├──--── 01_tokenization_learning_module.ipynb
+│       ├──--── 02_main_dataloader.ipynb
+│   ├── 03 - Attention Mechanisms
+│       ├──--── 01_attention_basics.ipynb
+├── .gitignore
 ├── README.md           # This file
-├── requirements.txt    # Python dependencies
+├── requirements.txt 
 ```
-
-## Notebooks
-
-- **01_neural_network_basics.ipynb** - Build a simple feedforward neural network for text data.
-- **02_tokenization.ipynb** - Implement tokenization techniques including byte-pair encoding (BPE).
-- **03_embeddings_and_attention.ipynb** - Explore embeddings, attention mechanisms, and transformer basics.
 
 ## Getting Started
 
